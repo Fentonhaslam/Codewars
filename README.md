@@ -57,3 +57,14 @@ get_sum(0, 1) == 1   # 0 + 1 = 1
 get_sum(1, 1) == 1   # 1 Since both are same
 get_sum(-1, 0) == -1 # -1 + 0 = -1
 get_sum(-1, 2) == 2  # -1 + 0 + 1 + 2 = 2
+
+
+##Vowel Count
+
+This code war was done in javascript :) 
+
+input : a given string is inputted as a parameter 
+output : we need to count the number of vowels present in the string
+
+edge case: string will consist of lower case letters and/or spaces. 
+
