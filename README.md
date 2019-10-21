@@ -58,6 +58,7 @@ get_sum(1, 1) == 1   # 1 Since both are same
 get_sum(-1, 0) == -1 # -1 + 0 = -1
 get_sum(-1, 2) == 2  # -1 + 0 + 1 + 2 = 2
 
+## Javascripts: 
 
 ##Vowel Count
 
@@ -67,4 +68,12 @@ input : a given string is inputted as a parameter
 output : we need to count the number of vowels present in the string
 
 edge case: string will consist of lower case letters and/or spaces. 
+
+##Find the Odd int 
+
+Given an array, find the int that appears an odd number of times.
+
+There will always be only one integer that appears an odd number of times.
+
+
 
