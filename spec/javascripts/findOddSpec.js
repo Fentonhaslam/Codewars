@@ -12,4 +12,7 @@ describe('FindOdd', function () {
     it('returns number of odds', function () {
         expect(findOdd.findOdd([1, 33, 4, 7, 5])).toEqual(4)
     });
+    it('returns number of odds including minus ints', function () {
+        expect(findOdd.findOdd([1, -1, 4, 7, 5])).toEqual(4)
+    });
 })

@@ -69,11 +69,10 @@ output : we need to count the number of vowels present in the string
 
 edge case: string will consist of lower case letters and/or spaces. 
 
-##Find the Odd int 
+##Digital Root
 
-Given an array, find the int that appears an odd number of times.
+A digital root is the recursive sum of all the digits in a number. Given n, take the sum of the digits of n. If that value has more than one digit, continue reducing in this way until a single-digit number is produced. This is only applicable to the natural numbers.
 
-There will always be only one integer that appears an odd number of times.
-
-
+input example: digital root(16)
+output: 1 + 6 = 7
 

@@ -6,7 +6,7 @@ FindOdd.prototype = {
     findOdd: function (a) {
         odd_count = 0;
         for (i = 0; i < a.length; i++) {
-            if (a[i] % 2 === 1) {
+            if (a[i] % 2 === 1 || a[i] % 2 < 0) {
                 odd_count++
             }
         };
