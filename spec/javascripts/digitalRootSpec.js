@@ -16,5 +16,7 @@ describe('DigitalRoot', function () {
     it('takes a integer larger than 10 and adds the two together', function () {
         expect(digitalRoot.digitalRoot(41)).toEqual(5);
     })
-
+    it('takes a integer larger than 10 and adds the two together', function () {
+        expect(digitalRoot.digitalRoot(48)).toEqual(12);
+    })
 })
